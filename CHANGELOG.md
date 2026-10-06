@@ -1,6 +1,6 @@
-# Registro de Alteraç��es (Changelog)
+# Registro de Alterações (Changelog)
 
-Todas as alterações relevantes deste projeto estão documentadas neste arquivo, seguindo o padrão [Keep a Changelog 1.0.0](https://keepachangelog.com/pt-BR/1.0.0/) e versionamento semantico [SemVer 2.0.0](https://semver.org/).
+Todas as alterações relevantes deste projeto estão documentadas neste arquivo, seguindo o padrão [Keep a Changelog 1.0.0](https://keepachangelog.com/pt-BR/1.0.0/) e versionamento semântico [SemVer 2.0.0](https://semver.org/).
 
 ---
 
@@ -27,13 +27,13 @@ Todas as alterações relevantes deste projeto estão documentadas neste arquivo
 - **Task 3 (Background Concurrency & Isolates)**: `SyncIsolateManager` operando com ciclo de vida isolado via `Isolate.spawn`.
 - Protocolo de mensageria tipado com primitivos seguros (`SyncTaskMessage`, `SyncTaskResult`, `IsolateInitHandshake`, `IsolateShutdownCommand`).
 - Offloading de serialização JSON, compactação Gzip e hash SHA-256 fora da Main UI Thread (Zero UI Jank / 120 FPS).
-- Suíte de testes de concorrência e descarte de memoria (`sync_isolate_test.dart`).
+- Suíte de testes de concorrência e descarte de memória (`sync_isolate_test.dart`).
 
 ## [0.2.0] - 2026-10-06
 ### Adicionado
-- **Task 2 (Optimistic UI & State Management)**: Camada de apresentação reativa com controle de estado para mutaç��es otimistas.
+- **Task 2 (Optimistic UI & State Management)**: Camada de apresentação reativa com controle de estado para mutações otimistas.
 - `AssetController`, componentes visuais `SyncStatusBadge`, `AssetFormWidget` e telas de listagem e detalhe.
-- Suíte de testes de widgets validando renderização imediata de estados `DIRTY` e `SyNCED`.
+- Suíte de testes de widgets validando renderização imediata de estados `DIRTY` e `SYNCED`.
 
 ## [0.1.0] - 2026-10-05
 ### Adicionado
