@@ -1,6 +1,10 @@
-O erro `'_' allowed only in math mode` ocorre porque o motor de renderização KaTeX/MathJax do GitHub interpretou o caractere de underline fora do modo matemático ou com escape inválido em strings dentro de `\text{...}`. O Mermaid `C4Container` também precisa dos blocos Markdown corretos (`mermaid ... `).
+# Offline-First Enterprise Asset Management Engine
 
-Aqui está o conteúdo exato e corrigido do `README.md`:
+[![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-passing-brightgreen?logo=githubactions)](https://github.com/Londrik/offline_first_asset_app/actions)
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)](https://flutter.dev)
+[![Dart Version](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart)](https://dart.dev)
+[![SQLite / Drift](https://img.shields.io/badge/Storage-Drift%20SQLite-003B57?logo=sqlite)](https://drift.simonbinder.eu/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # Offline-First Enterprise Asset Management Engine
 
